@@ -1,0 +1,26 @@
+{
+  "topics": [
+    {
+      "ocid": "ocid1.onstopic.oc1..t1",
+      "display_name": "prod-alarms",
+      "referenced_by_rule": true,
+      "subscriptions": [
+        {"protocol": "EMAIL", "endpoint": "oncall@example.com", "state": "PENDING", "created_at": "2026-11-01"}
+      ]
+    },
+    {
+      "ocid": "ocid1.onstopic.oc1..t2",
+      "display_name": "billing-alerts",
+      "referenced_by_rule": false,
+      "subscriptions": [
+        {"protocol": "HTTPS", "endpoint": "http://hooks.example.com/billing", "state": "ACTIVE", "created_at": "2026-10-01"}
+      ]
+    },
+    {
+      "ocid": "ocid1.onstopic.oc1..t3",
+      "display_name": "dev-sandbox-events",
+      "referenced_by_rule": true,
+      "subscriptions": []
+    }
+  ]
+}
