@@ -1,0 +1,13 @@
+{
+  "topics": [
+    {
+      "ocid": "ocid1.onstopic.oc1..t9",
+      "display_name": "prod-alarms",
+      "referenced_by_rule": true,
+      "subscriptions": [
+        {"protocol": "EMAIL", "endpoint": "oncall@example.com", "state": "ACTIVE", "created_at": "2026-10-01"},
+        {"protocol": "HTTPS", "endpoint": "https://hooks.example.com/alarms", "state": "ACTIVE", "created_at": "2026-10-01"}
+      ]
+    }
+  ]
+}
